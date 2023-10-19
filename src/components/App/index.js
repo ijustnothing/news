@@ -25,7 +25,7 @@ function App() {
   }, [isFetching, skipValue])
 
   return (
-    <Layout style={{ padding: '20px' }}>
+    <Layout style={{ padding: '16px' }}>
       {isLoading ? (
         <div>Loading...</div>
       ) : (
