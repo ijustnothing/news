@@ -3,3 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.newsText {
+  margin-bottom: 16px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

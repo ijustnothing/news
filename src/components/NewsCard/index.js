@@ -8,17 +8,7 @@ function NewsCard(props) {
 
   return (
     <Card title={title} style={{ marginBottom: '16px' }}>
-      <Row
-        style={{
-          marginBottom: '16px',
-          overflow: 'hidden',
-          display: '-webkit-box',
-          webkitLineClamp: '3',
-          webkitBoxOrient: 'vertical',
-        }}
-      >
-        {body}
-      </Row>
+      <Row className='newsText'>{body}</Row>
       <Row justify='space-between'>
         <Col>{tags && tags.map((tag) => <Tag key={tag}>{tag}</Tag>)}</Col>
         <Col align='middle'>
